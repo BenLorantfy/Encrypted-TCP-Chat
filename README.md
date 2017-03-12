@@ -25,4 +25,4 @@ This walkthrough requires and assumes two seperate physical computers connected 
 ### Interceptor Setup
 You can use a 3rd party interceptor application to inspect the network. For example, wireshark is a popular application for this. You can download wireshark [here](https://www.wireshark.org/). Once you've downloaded wireshark, you need to select the interface that both computers are on. This will probably be ethernet if you're on a desktop and wireless if you're on a laptop.
 
-[Imgur](http://i.imgur.com/lOO06jZ.png)
+![Imgur](http://i.imgur.com/lOO06jZ.png)
