@@ -1,0 +1,23 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Chat app between two peers with optional encryption",
+  "main": "main.js",
+  "dependencies": {
+    "blowfish-security-lib": "^1.0.1",
+    "electron": "^1.6.2",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1"
+    ,"start": "node start development"
+  },
+  "keywords": [
+    "chat",
+    "app",
+    "encryption"
+  ],
+  "author": "Ben Lorantfy",
+  "license": "MIT"
+}

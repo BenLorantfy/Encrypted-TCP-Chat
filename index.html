@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link href="css/custom.css" type="text/css" rel="stylesheet" />
+    <link href="css/lib/tachyons.min.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body class="bg-grey">
+    <!--<h1>Hello World!</h1>
+    We are using node <script>document.write(process.versions.node)</script>,
+    Chrome <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>.-->
+    <div id="ipPage" class="w-100 h-100 bg-green absolute">
+        <div class="pa4">
+            <h1>What IP address do you want to chat with?</h1>
+            <input id="ip" class="textbox bg-transparent bb b--black pb2 f3" type="text" />
+            <h2 class="f6 pt3">BTW, your IP address is <span id="myIP">...</span></h2>
+        </div>
+        
+    </div>
+    <div class="w-100 h-85 bg-near-white pa2 overflow-y-scroll pa3">
+        <ul id="messageList" class="list ma0 pa0 dt">
+            
+        </ul>
+    </div>
+    <div class="w-100 h-15 bg-light-gray">
+        <div class="fl w-100 h-100 pa2">
+            <textarea placeholder="Type your message here..." id="message" class="b--black-20 w-100 h-75 pa2"></textarea>
+            <div class="w-100 h-25">
+                <input id="encryptionToggle" class="v-mid mr1" type="checkbox" /><span class="v-mid f6 gray">Encrypt messages</span>
+            </div>
+        </div>
+        
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+</html>
