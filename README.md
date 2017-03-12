@@ -1,5 +1,5 @@
 # Getting Started
-This repo was originally an assignment for Advanced Computer Security and is a simple chat app that communicates over TCP. It's meant to demonstrate encryption between two computers and the user is able to toggle encryption on and off.
+This repo was originally an assignment for Advanced Computer Security and is a simple chat app that communicates over TCP. It's meant to demonstrate encryption between two computers so user is able to toggle encryption on and off.
 
 ## Installation
 
