@@ -35,13 +35,13 @@ Next you need to add filters to restrict the traffic to just the data going betw
 
 The next step is to test intercepting clear text messages. Without the encryption box checked, try sending messages between the two apps. The transmission should show up in wireshark like below.
 
-![Imgur](http://cdn.blizzardwatch.com/wp-content/uploads/2016/06/placeholder-gag-header.jpg)
+![Imgur](http://i.imgur.com/FCOp2zi.png)
 
 You should be able to see the message in cleartext like shown above. This is a concern because anybody can do what we just did and snoop on your messages. You can see how we can remedy this in the next section.
 
 ### Encrypted Text Test
 Now try the same test as above but click the encryption checkbox on each app. This time when you try sending the message, it's encrypted before being sent and appears as random noise in wireshark as shown below.
 
-![Imgur](http://cdn.blizzardwatch.com/wp-content/uploads/2016/06/placeholder-gag-header.jpg)
+![Imgur](http://i.imgur.com/B2KdMyb.png)
 
 If you look at the other app now, you should be able to see the clear text message appear on the screen. This is because it was decrypted using the same key that was used to encrypt it. This prevents prying eyes from trying to eavesdrop and is a core principle in any type of sensitive communication such as in the banking industry or military.
